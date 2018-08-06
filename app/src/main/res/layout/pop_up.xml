@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="240dp"
+              android:layout_height="290dp"
+              android:id="@+id/popup"
+
+
+
+>
+
+
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:src="@drawable/customborder"
+               android:foregroundGravity="top"
+
+    />
+
+
+
+
+    <TextView
+            android:id="@+id/txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5sp"
+            android:text="@string/title"
+            android:textSize="20sp"
+
+
+    />
+
+
+    <EditText
+            android:id="@+id/set_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:background="@drawable/theword_view"
+
+    />
+
+    <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:layout_below="@+id/set_title"
+            android:layout_marginStart="154dp"
+
+
+    />
+    <Button
+            android:id="@+id/close_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/close"
+            android:layout_below="@+id/set_title"
+            android:layout_marginStart="50dp"
+
+    />
+
+
+</RelativeLayout>

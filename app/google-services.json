@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "636637257668",
+    "firebase_url": "https://vocabulaire-db3d2.firebaseio.com",
+    "project_id": "vocabulaire-db3d2",
+    "storage_bucket": "vocabulaire-db3d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636637257668:android:bc81c9c1d00faf79",
+        "android_client_info": {
+          "package_name": "hfad.com.vocabulaire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "636637257668-c1lm04til7cbot2srprnqbst8ve22q55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLt2oIacK8FgvZG4PEnCFv6sbbGwgkf8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
